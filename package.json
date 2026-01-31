@@ -1,0 +1,24 @@
+{
+  "name": "ecommers",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/parshurambagade/mern-rn-ecommers#readme",
+  "bugs": {
+    "url": "https://github.com/parshurambagade/mern-rn-ecommers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parshurambagade/mern-rn-ecommers.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix admin && npm run build --prefix admin",
+    "start": "npm run start --prefix backend"
+  }
+}
